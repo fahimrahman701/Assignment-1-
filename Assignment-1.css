@@ -1,3 +1,10 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     background: #e8eaf6;
@@ -34,4 +41,33 @@ body {
     font-size: 40px;
     font-weight:bolder;
     line-height: 150%;
+}
+
+/* Hero Section */
+.hero {
+    padding: 120px 0 160px;
+    text-align: center;
+    background: url('B12A01-landing-launchpad-main/Assets/Hero-bg.png') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.hero-title {
+    font-size: 72px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 50px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    font-family: 'Inter', 'Poppins', 'Montserrat', Arial, sans-serif;
 }
