@@ -19,6 +19,33 @@ body {
     width: 100%;
 }
 
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    text-transform: none;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(99, 102, 241, 0.05);
+    scale: 1.05;
+}
+
+.btn-full {
+    width: 100%;
+    padding: 18px;
+    font-size: 18px;
+}
+
 /* Header */
 .header {
     padding: 20px 0;
