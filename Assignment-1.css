@@ -139,3 +139,73 @@ body {
 .action-image img:hover {
     transform: scale(1.02);
 }
+
+/* Stats Section */
+.stats-section {
+    padding: 120px 0;
+    background: #e8eaf6;
+}
+
+.stats-content {
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.10);
+    padding: 80px 60px;
+    margin: 0 40px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+}
+
+.stats-content h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 80px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.stat-item {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+    font-size: 56px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.stat-item:nth-child(1) .stat-number {
+    color: #6366f1;
+}
+
+.stat-item:nth-child(2) .stat-number {
+    color: #8b5cf6;
+}
+
+.stat-item:nth-child(3) .stat-number {
+    color: #06b6d4;
+}
+
+.stat-label {
+    font-size: 18px;
+    color: #6b7280;
+    font-weight: 600;
+}
