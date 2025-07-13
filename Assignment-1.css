@@ -11,3 +11,27 @@ body {
     padding: 0 40px;
     width: 100%;
 }
+
+/* Header */
+.header {
+    padding: 20px 0;
+    background: url('B12A01-landing-launchpad-main/Assets/Hero-bg.png') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand h2 {
+    color: var(--Primary-Color, #4E47FF);
+    font-size: 40px;
+    font-weight:bolder;
+    line-height: 150%;
+}
